@@ -18,7 +18,6 @@ const convertNum = function (x) {
 	let length = Math.ceil(str.toString().length / 3);
 	let res = [];
 
-
 	for (let i = 0; i < length; i++) {
 		res.push(str.slice(-3));
 		str = str.slice(0, -3);
