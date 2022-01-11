@@ -60,8 +60,9 @@ body {
 
 	text-align: right;
 
-	border: 1px solid #dcdcdc;
 	border-radius: 8px;
+	border: 1px solid #dcdcdc;
+	background-color: #fff;
 }
 
 .input:focus {
