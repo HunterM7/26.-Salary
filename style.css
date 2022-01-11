@@ -88,6 +88,8 @@ body {
 	border: none;
 
 	height: 40px;
+
+	cursor: pointer;
 }
 
 #btnSubmit:active {
