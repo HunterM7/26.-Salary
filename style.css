@@ -63,6 +63,8 @@ body {
 	border-radius: 8px;
 	border: 1px solid #dcdcdc;
 	background-color: #fff;
+
+	cursor: pointer;
 }
 
 .input:focus {
@@ -71,6 +73,12 @@ body {
 
 .input.result {
 	margin-bottom: 20px;
+
+	cursor: default;
+}
+
+.input.penalties {
+	cursor: text;
 }
 
 #btnSubmit {
