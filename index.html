@@ -13,7 +13,7 @@
 
 	<div class="container">
 
-		<input type="text" class="input result" value="Результат..." readonly>
+		<input type="text" class="input result" value="Результат..." id="result" readonly>
 
 		<div class="infoblock">
 			<label class="label" for="workDays">Рабочие дни:</label>
@@ -42,8 +42,8 @@
 		</div>
 
 		<div class="infoblock">
-			<label class="label" for="holiDays">Штрафы:</label>
-			<input class="input" type="number">
+			<label class="label" for="penalties">Штрафы:</label>
+			<input class="input" type="number" id="penalties" placeholder="0">
 		</div>
 
 		<button type="button" id="btnSubmit">Рассчитать</button>
