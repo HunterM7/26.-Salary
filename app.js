@@ -1,13 +1,12 @@
 document.getElementById('btnSubmit').onclick = () => {
-	let workDays = document.getElementById('workDays').value;
-	let holiDays = document.getElementById('holiDays').value;
+	let workHours = document.getElementById('workHours').value;
+	let holiHours = document.getElementById('holiHours').value;
 	let penalties = document.getElementById('penalties').value;
 
-	const hours = 12;
 	const pricePerHour = 200;
 	const pricePerHourHoliday = 220;
 
-	let result = convertNum((hours * (pricePerHour * workDays + pricePerHourHoliday * holiDays) - penalties));
+	let result = convertNum((pricePerHour * workHours + pricePerHourHoliday * holiHours) - penalties);
 
 	document.getElementById('result').value = `${result}.00 руб.`;
 
