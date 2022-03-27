@@ -3,8 +3,8 @@ document.getElementById('btnSubmit').onclick = () => {
 	let holiHours = document.getElementById('holiHours').value;
 	let penalties = document.getElementById('penalties').value;
 
-	const pricePerHour = 200;
-	const pricePerHourHoliday = 220;
+	const pricePerHour = 240;
+	const pricePerHourHoliday = 264;
 
 	let result = convertNum((pricePerHour * workHours + pricePerHourHoliday * holiHours) - penalties);
 
