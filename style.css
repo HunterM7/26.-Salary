@@ -22,7 +22,8 @@ body {
 	width: 100vw;
 	height: 100vh;
 
-	background-color: #f5f5f5;
+/* 	background-color: #f5f5f5; */
+	background: linear-gradient(315deg, #F9E7FE 0%, #DAFCFC 118%);
 }
 
 .container {
