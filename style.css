@@ -22,7 +22,6 @@ body {
 	width: 100vw;
 	height: 100vh;
 
-/* 	background-color: #f5f5f5; */
 	background: linear-gradient(315deg, #F9E7FE 0%, #DAFCFC 118%);
 }
 
@@ -37,25 +36,8 @@ body {
 	padding: 20px;
 }
 
-.infoblock {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-
-	margin-bottom: 20px;
-}
-
-.label {
-	text-align: left;
-	white-space: nowrap;
-	margin-right: 20px;
-	flex: 1;
-}
-
 .input {
-	flex: 1;
-	height: 40px;
-	max-height: 40px;
+	min-height: 40px;
 
 	padding: 0 10px;
 
@@ -64,6 +46,28 @@ body {
 	border-radius: 8px;
 	border: 1px solid #dcdcdc;
 	background-color: #fff;
+}
+
+.infoblock {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	margin-bottom: 20px;
+}
+
+.infoblock .label {
+	text-align: left;
+	white-space: nowrap;
+	
+	flex: 0 0 auto;
+
+	margin-right: 20px;
+}
+
+.infoblock .input {
+	min-width: 20px;
+	flex: 1 1 0;
 
 	cursor: pointer;
 }
