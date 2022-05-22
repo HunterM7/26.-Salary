@@ -20,7 +20,7 @@ body {
 	align-items: center;
 
 	width: 100vw;
-	height: 100vh;
+	min-height: 100vh;
 
 	background: linear-gradient(315deg, #F9E7FE 0%, #DAFCFC 118%);
 }
